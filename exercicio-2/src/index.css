@@ -7,6 +7,7 @@
 
   --color-font-primary: #6f6f6f;
   --color-font-secondary: #fff;
+  --color-font-terriary:#6E6E6E;
 }
 
 * {
@@ -41,4 +42,14 @@ a, a:hover {
 
 .mt30 {
     margin-top: 30px;
+}
+
+.subscription-msg{
+    margin: 47px auto;
+    display: flex;
+    justify-content: center;
+}
+.subscription-msg h1{
+    color: var(--color-font-terriary);
+    font-size: 32px;
 }
